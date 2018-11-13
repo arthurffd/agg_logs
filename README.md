@@ -30,7 +30,7 @@ Application developed in Python 3
   6. The application will diplay some messages and after finished you can see the log files by each userid in the directory: \http_logs\user_logs\
     
 ## Project Files:
-  ###  LogAggMulti.py - Main application: 
+  ###  LogAggMulti.py - Main application (Python 3): 
   Description: Process http logs from differente servers (directories) and agreggate by userids, generating one file by userid, containing all his http logs ordered by datetime.
   
   Methods:
