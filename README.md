@@ -53,7 +53,7 @@ Apache Log formats: https://httpd.apache.org/docs/2.4/logs.html
 
 ### Output Log Files sample:
 The output log files will be available in the directory: \LogAggMulti\http_logs\user_logs <br />
-File name will follow this standard: <userid>_final.log . Example: 5352b590-05ac-11e3-9923-c3e7d8408f3a_final.log <br />
+File name will follow this pattern: (userid)_final.log . Example: 5352b590-05ac-11e3-9923-c3e7d8408f3a_final.log <br />
 <br />
 Format layout, separated by ";" :
 Host; Datetime; http command; http status; message bytes; userid; original log file name;
