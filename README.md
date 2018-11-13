@@ -47,9 +47,9 @@ Application developed in Python 3
 ## Log Files
 ### Input Log Files sample:
 Apache Log formats: https://httpd.apache.org/docs/2.4/logs.html
-> 177.126.180.83 - - [15/Aug/2013:13:54:38 -0300] "GET /meme.jpg HTTP/1.1" 200 2148 "-" "userid=5352b590-05ac-11e3-9923-c3e7d8408f3a"
-> 177.126.180.83 - - [15/Aug/2013:13:54:38 -0300] "GET /lolcats.jpg HTTP/1.1" 200 5143 "-" "userid=f85f124a-05cd-11e3-8a11-a8206608c529"
-> 177.126.180.83 - - [15/Aug/2013:13:57:48 -0300] "GET /lolcats.jpg HTTP/1.1" 200 5143 "-" "userid=5352b590-05ac-11e3-9923-c3e7d8408f3a"
+> 177.126.180.83 - - [15/Aug/2013:13:54:38 -0300] "GET /meme.jpg HTTP/1.1" 200 2148 "-" "userid=5352b590-05ac-11e3-9923-c3e7d8408f3a"<br />
+> 177.126.180.83 - - [15/Aug/2013:13:54:38 -0300] "GET /lolcats.jpg HTTP/1.1" 200 5143 "-" "userid=f85f124a-05cd-11e3-8a11-a8206608c529"<br />
+> 177.126.180.83 - - [15/Aug/2013:13:57:48 -0300] "GET /lolcats.jpg HTTP/1.1" 200 5143 "-" "userid=5352b590-05ac-11e3-9923-c3e7d8408f3a"<br />
 
 ### Output Log Files sample:
 The output log files will be available in the directory: \LogAggMulti\http_logs\user_logs <br />
@@ -57,7 +57,7 @@ File name will follow this standard: <userid>_final.log . Example: 5352b590-05ac
 <br />
 Format layout, separated by ";" :
 Host; Datetime; http command; http status; message bytes; userid; original log file name;
->177.126.180.83;14/Aug/2013:07:54:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0004_20130815_005.log
->177.126.180.83;14/Aug/2013:10:54:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0003_20130815_0034.log
->177.126.180.83;14/Aug/2013:10:55:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0003_20130815_0034.log
+>177.126.180.83;14/Aug/2013:07:54:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0004_20130815_005.log<br />
+>177.126.180.83;14/Aug/2013:10:54:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0003_20130815_0034.log<br />
+>177.126.180.83;14/Aug/2013:10:55:38 -0300;GET /meme.jpg HTTP/1.1;200;2148;userid=5352b590-05ac-11e3-9923-c3e7d8408f3a;0003_20130815_0034.log<br />
 <br /><br />
