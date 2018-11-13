@@ -12,13 +12,13 @@ Last Updates:  <br />
 <br /><br />
 
 ## How to run the application:
-  1. First of all, extract and unzip LogAggMulti.tar.gz.<br />
+  1. First of all, extract and unzip LogAggMulti.tar.gz. ;<br />
   
   2. The application already contains a sample of http server logs files, but you can add more log files in the following directories (each one represents log files from different servers):
-    - \http_logs\server_01
-    - \http_logs\server_02
-    - \http_logs\server_03
-    - \http_logs\server_04
+  - \http_logs\server_01<br />
+  - \http_logs\server_02<br />
+  - \http_logs\server_03<br />
+  - \http_logs\server_04<br />
   
   3. Execute the script "start.sh" <br />
   
