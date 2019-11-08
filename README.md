@@ -4,7 +4,7 @@ This is the Http logs agregation challenge: collect log files from different HTT
 ## Purpose: 
 This document contains necessary information to run the application and explain the purposes and expected results.<br />
 <br />
-Customer: Linx <br />
+Customer: LX<br />
 Developer: Arthur F. Flores Duarte <br />
 <br />
 Created Date: 2018/11/12 <br />
